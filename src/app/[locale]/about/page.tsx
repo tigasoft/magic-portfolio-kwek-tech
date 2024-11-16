@@ -150,7 +150,8 @@ export default function About(
                                 style={{
                                     backdropFilter: 'blur(var(--static-space-1))',
                                     border: '1px solid var(--brand-alpha-medium)',
-                                    width: 'fit-content'
+                                    width: 'fit-content',
+                                    display: 'none'
                                 }}
                                 alpha="brand-weak" radius="full"
                                 fillWidth padding="4" gap="8" marginBottom="m"
