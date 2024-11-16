@@ -103,7 +103,7 @@ export const Header = () => {
                             textVariant="body-default-s">
                             { routes['/'] && (
                                 <ToggleButton
-                                    prefixIcon="home"
+                                    prefixIcon=""
                                     href={`/${params?.locale}`}
                                     selected={pathname === "/"}>
                                     <Flex paddingX="2" hide="s">{home.label}</Flex>
@@ -111,7 +111,7 @@ export const Header = () => {
                             )}
                             { routes['/about'] && (
                                 <ToggleButton
-                                    prefixIcon="person"
+                                    prefixIcon=""
                                     href={`/${params?.locale}/about`}
                                     selected={pathname === "/about"}>
                                     <Flex paddingX="2" hide="s">{about.label}</Flex>
