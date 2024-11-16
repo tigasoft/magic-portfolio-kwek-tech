@@ -1,8 +1,8 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-    firstName: 'Kwek',
-    lastName:  'Tech',
+    firstName: 'Kwek Tech',
+    lastName:  '',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
@@ -46,9 +46,9 @@ const social = [
 const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
-    description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    description: `Portfolio website`,
+    headline: <>Kwek Tech Software</>,
+    subline: <>Some placeholder text below company name title.</>
 }
 
 const about = {
